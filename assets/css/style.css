@@ -1,13 +1,14 @@
-* {
+/*Universal Selector*/ 
+{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Element Selectors*/
 body {
     background-color: #2a607c;
 }
-
+/*Class Selectors*/
 .header {
     padding: 20px;
     font-family: 'Lucida Sans','Lucida Grande', 'Trebuchet MS', 'Lucida Sans Unicode',  Arial, sans-serif;
@@ -47,7 +48,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 10px;
 }
 
 .hero {
@@ -198,3 +199,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/*Id Selectors*/
